@@ -1,8 +1,6 @@
 exec-time
 =========
 
-**IMPORTANT: this library is not maintained anymore, please don't submit anymore pull requests except for bugfixes**
-
 See how much time every step of a node script takes, with nanosecond precision.
 
 ```javascript
