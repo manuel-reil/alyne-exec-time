@@ -16,7 +16,7 @@ function getTime() {
 }
 
 
-console.log(getTime());
+// console.log(getTime());
 
 var a = getTime();
 setTimeout(function() {
