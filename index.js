@@ -15,16 +15,6 @@ function getTime() {
   return (t[0] * 1e9 + t[1]);
 }
 
-
-// console.log(getTime());
-
-var a = getTime();
-setTimeout(function() {
-  console.log((getTime() - a) / 1e6);
-}, 1175);
-
-
-
 /**
  * Create a profiler with name testName to monitor the execution time of a route
  * The profiler has two arguments: a step msg and an optional reset for the internal timer
